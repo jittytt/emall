@@ -55,6 +55,8 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'emall.urls'
 
+AUTH_USER_MODEL = 'user.User'           #appname.tablename
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
